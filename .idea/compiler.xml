@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
         <module name="server-provider-1" />
+        <module name="server-provider-2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
       <module name="server-provider-1" target="1.8" />
+      <module name="server-provider-2" target="1.8" />
       <module name="spring-boot-cloud" target="1.5" />
     </bytecodeTargetLevel>
   </component>
