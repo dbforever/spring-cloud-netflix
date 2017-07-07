@@ -13,6 +13,7 @@
         <module>eureka-server</module>
         <module>server-provider-1</module>
         <module>server-provider-2</module>
+        <module>feign-consumer</module>
     </modules>
 
 </project>
