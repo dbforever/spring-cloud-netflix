@@ -34,6 +34,6 @@ Eureka服务注册与发现，Feign服务调用，Zuul服务网关，Ribbon负�
 
 网关路由到userinfo-consumer的接口，返回结果被Zuul过滤器替换
 
-访问 http://localhost:3200/getuser/user
+访问 http://localhost:4000/getuser/user
 
 ![返回结果](pic/4.png)
