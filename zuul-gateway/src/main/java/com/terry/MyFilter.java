@@ -46,7 +46,7 @@ public class MyFilter extends ZuulFilter {
     public Object run() {
         RequestContext ctx = RequestContext.getCurrentContext();
         HttpServletRequest request = ctx.getRequest();
-        logger.info("IP {}，方法{}，地址{}", request.getRemoteAddr(), request.getMethod(), request.getRequestURL().toString());
+        logger.info("IP:{}  方法:{}  地址:{}", request.getRemoteAddr(), request.getMethod(), request.getRequestURL().toString());
         ctx.setSendZuulResponse(true);
         ctx.setResponseStatusCode(200);
         ctx.setResponseBody("{\n" +
