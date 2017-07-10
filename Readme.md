@@ -1,8 +1,8 @@
-### Spring Cloud Netflix
+## Spring Cloud Netflix
 
-Eureka服务注册与发现，Feign服务调用，Zuul服务网关，Ribbon负载均衡/故障切换，Hystrix服务容错保护
+Eureka服务注册发现，Feign服务调用，Zuul微服务网关，Ribbon负载均衡/故障切换，Hystrix服务容错保护
 
-##### Eureka Server 服务注册中心，管理服务注册和发现
+### Eureka Server 服务注册中心，管理服务注册和发现
 
 运行服务，打开http://localhost:8761/
 
@@ -10,15 +10,15 @@ Eureka服务注册与发现，Feign服务调用，Zuul服务网关，Ribbon负�
 
 ![服务注册中心](pic/1.png)
 
-##### Eureka Service provider 服务提供者
+### Eureka Service provider 服务提供者
 
 运行两个实例，在2017和2018端口提供了一个查询用户信息的API
 
-访问http://localhost:2017/userinfo或http://localhost:2018/userinfo
+访问http://localhost:2017/userinfo 或 http://localhost:2018/userinfo
 
 ![返回结果](pic/2.png)
 
-##### Eureka Service consumer 服务消费者
+### Eureka Service consumer 服务消费者
 
 消费服务userinfo-microservice
 
@@ -28,7 +28,7 @@ Eureka服务注册与发现，Feign服务调用，Zuul服务网关，Ribbon负�
 
 ![返回结果](pic/3.png)
 
-##### Zuul Service gateway 微服务网关
+### Zuul Service gateway 微服务网关
 
 用serviceId代替URL，实现动态路由
 
