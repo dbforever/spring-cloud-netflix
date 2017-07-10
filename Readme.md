@@ -1,4 +1,4 @@
-## Spring Cloud Netflix
+## Spring Cloud Netflix 分布式微服务实践
 
 Eureka服务注册发现，Feign服务调用，Zuul微服务网关，Ribbon负载均衡/故障切换，Hystrix服务容错保护
 
@@ -37,3 +37,13 @@ Eureka服务注册发现，Feign服务调用，Zuul微服务网关，Ribbon负�
 访问 http://localhost:4000/getuser/user
 
 ![返回结果](pic/4.png)
+
+### Hystrix Dashboard 服务监控
+
+打开 http://localhost:4000/hystrix
+
+![Hystrix Dashboard](pic/6.png)
+
+填入 http://localhost:3000/hystrix.stream 查看服务运行状态
+
+![Hystrix Dashboard](pic/5.png)
