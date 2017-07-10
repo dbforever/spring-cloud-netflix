@@ -38,12 +38,12 @@ Eureka服务注册发现，Feign服务调用，Zuul微服务网关，Ribbon负�
 
 ![返回结果](pic/4.png)
 
-### Hystrix Dashboard 服务监控
+### Hystrix Turbine 服务监控
 
-打开 http://localhost:4000/hystrix
+打开 http://localhost:5000/hystrix
 
-![Hystrix Dashboard](pic/6.png)
+![Hystrix Turbine](pic/5.png)
 
-填入 http://localhost:3000/hystrix.stream 查看服务运行状态
+填入 http://localhost:5000//turbine.stream 查看服务运行状态
 
-![Hystrix Dashboard](pic/5.png)
+![Hystrix Turbine](pic/6.png)
