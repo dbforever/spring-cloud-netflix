@@ -10,7 +10,6 @@
         <module name="feign-consumer" />
         <module name="hystrix-turbine" />
         <module name="server-provider-1" />
-        <module name="server-provider-2" />
         <module name="zuul-gateway" />
       </profile>
     </annotationProcessing>
