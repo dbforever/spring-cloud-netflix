@@ -9,6 +9,7 @@
         <module name="eureka-server" />
         <module name="feign-consumer" />
         <module name="hystrix-turbine" />
+        <module name="server-provider" />
         <module name="server-provider-1" />
         <module name="zuul-gateway" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="eureka-server" target="1.8" />
       <module name="feign-consumer" target="1.8" />
       <module name="hystrix-turbine" target="1.8" />
+      <module name="server-provider" target="1.8" />
       <module name="server-provider-1" target="1.8" />
       <module name="server-provider-2" target="1.8" />
       <module name="spring-boot-cloud" target="1.5" />

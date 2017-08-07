@@ -5,7 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign-consumer/feign-consumer.iml" filepath="$PROJECT_DIR$/feign-consumer/feign-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-turbine/hystrix-turbine.iml" filepath="$PROJECT_DIR$/hystrix-turbine/hystrix-turbine.iml" />
-      <module fileurl="file://$PROJECT_DIR$/server-provider/server-provider-1.iml" filepath="$PROJECT_DIR$/server-provider/server-provider-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-provider/server-provider.iml" filepath="$PROJECT_DIR$/server-provider/server-provider.iml" />
+      <module fileurl="file://D:\Spring Cloud\spring-boot-cloud\server-provider\server-provider-1.iml" filepath="D:\Spring Cloud\spring-boot-cloud\server-provider\server-provider-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-cloud.iml" filepath="$PROJECT_DIR$/spring-boot-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul-gateway/zuul-gateway.iml" filepath="$PROJECT_DIR$/zuul-gateway/zuul-gateway.iml" />
     </modules>
