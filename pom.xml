@@ -15,6 +15,7 @@
         <module>feign-consumer</module>
         <module>zuul-gateway</module>
         <module>hystrix-turbine</module>
+        <module>admin-server</module>
     </modules>
 
 </project>
