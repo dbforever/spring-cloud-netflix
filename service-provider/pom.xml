@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.teryy</groupId>
-	<artifactId>server-provider</artifactId>
+	<artifactId>service-provider</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>server-provider</name>
+	<name>service-provider</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
