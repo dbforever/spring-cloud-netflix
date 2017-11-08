@@ -1,21 +1,21 @@
 
 # Spring Cloud Netflix 分布式微服务实践
 
-> 使用Eureka做服务注册发现，Feign做服务调用，Zuul做微服务网关，Ribbon负载均衡，Hystrix服务容错保护/断路器
+使用Eureka做服务注册发现，Feign做服务调用，Zuul做微服务网关，Ribbon负载均衡，Hystrix服务容错保护/断路器
 
 ### eureka-server 服务注册中心
 
-运行服务，打开http://localhost:8761/
+运行服务，打开 http://localhost:8761/
 
-看到注册有三个服务，其中userinfo-microservice有两个实例
+看到注册有5个服务
 
-![服务注册中心](pic/1.png)
+![服务注册中心](pic/1.jpg)
 
 ### server-provider 服务提供者
 
-运行两个实例，在2017和2018端口提供了一个查询用户信息的API
+在2017端口提供了一个查询用户信息的API
 
-访问http://localhost:2017/userinfo 或 http://localhost:2018/userinfo
+访问http://localhost:2017/userinfo
 
 ![返回结果](pic/2.png)
 
@@ -45,6 +45,14 @@
 
 ![Hystrix Turbine](pic/5.png)
 
-填入 http://localhost:5000//turbine.stream 查看服务运行状态
+填入`http://localhost:5000//turbine.stream`查看服务运行状态
 
 ![Hystrix Turbine](pic/6.png)
+
+### admin-server 服务管理
+
+打开 http://localhost:5033
+
+![admin](pic/7.jpg)
+
+![admin](pic/8.jpg)
