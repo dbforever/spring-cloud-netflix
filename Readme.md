@@ -1,7 +1,9 @@
 
 # Spring Cloud Netflix 分布式微服务实践
 
-使用Eureka做服务注册发现，Feign做服务调用，Zuul做微服务网关，Ribbon负载均衡，Hystrix服务容错保护/断路器
+基于美国Netflix公司开源的分布式应用开发框架，
+使用Eureka做服务注册发现，Feign做服务调用，Zuul微服务网关，Ribbon负载均衡，
+Hystrix服务容错保护/断路器，admin服务管控
 
 ### eureka-server 服务注册中心
 
@@ -49,7 +51,7 @@
 
 ![Hystrix Turbine](pic/6.png)
 
-### admin-server 服务管理
+### admin-server 服务管控
 
 打开 http://localhost:5033
 
